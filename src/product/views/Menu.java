@@ -190,37 +190,36 @@ public class Menu {
     }
 
     public static void menuBoss() {
-        System.out.println("\u001B[35m╔══════════════════════════════════════════╗");
-        System.out.println("\u001B[35m║              \u001B[1m\u001B[36mGiao diện chủ\u001B[0m               \u001B[35m║");
-        System.out.println("\u001B[35m║                                          ║");
-        System.out.println("\u001B[35m║   \u001B[1m1. Hiển thị danh sách Cổ Vật           \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m2. Hiển thị mô tả Cổ vật               \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m3. Thêm Cổ vật vào danh sách           \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m4. Sửa thông tin Cổ vật                \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m5. Tìm kiếm Cổ vật theo tên            \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m6. Tìm kiếm Cổ vật theo loại           \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m7. Xem doanh thu                       \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m8. Quay lại                            \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m9. Thoát                               \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║                                          ║");
-        System.out.println("\u001B[35m╚══════════════════════════════════════════╝\u001B[0m");
+        System.out.println("⚪ ⚪ ⚪ ⚪ ⚪  Giao diện chủ  ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ");
+        System.out.println("⚪                                             ⚪");
+        System.out.println("⚪     1. Hiển thị danh sách sản phẩm          ⚪");
+        System.out.println("⚪     2. Hiển thị mô tả sản phẩm              ⚪");
+        System.out.println("⚪     3. Thêm sản phẩm vào danh sách          ⚪");
+        System.out.println("⚪     4. Sửa thông tin sản phẩm               ⚪");
+        System.out.println("⚪     5. Tìm kiếm sản phẩm theo tên           ⚪");
+        System.out.println("⚪     6. Tìm kiếm sản phẩm theo loại          ⚪");
+        System.out.println("⚪     7. Xem tổng doanh thu                   ⚪");
+        System.out.println("⚪     8. Quay lại                             ⚪");
+        System.out.println("⚪     9. Thoát                                ⚪");
+        System.out.println("⚪                                             ⚪");
+        System.out.println("⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪");
     }
 
     public static void menuGuest() {
-        System.out.println("\u001B[35m╔══════════════════════════════════════════╗");
-        System.out.println("\u001B[35m║            \u001B[1m\u001B[36mGiao diện Khách\u001B[0m               \u001B[35m║");
-        System.out.println("\u001B[35m║                                          ║");
-        System.out.println("\u001B[35m║   \u001B[1m1. Hiển thị danh sách Cổ vật           \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m2. Hiển thị mô tả Cổ vật               \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m3. Tìm kiếm Cổ vật theo tên            \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m4. Tìm kiếm Cổ vật theo loại           \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m5. Sắp xếp Cổ vật theo giá tăng dần    \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m6. Sắp xếp Cổ vật theo giá giảm dần    \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m7. Mua Cổ vật                          \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m8. Quay lại                            \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║   \u001B[1m9. Thoát                               \u001B[0m\u001B[35m║");
-        System.out.println("\u001B[35m║                                          ║");
-        System.out.println("\u001B[35m╚══════════════════════════════════════════╝\u001B[0m");
+        System.out.println("⚪ ⚪ ⚪ ⚪ ⚪  Giao diện Khách   ⚪ ⚪ ⚪ ⚪ ⚪ ");
+        System.out.println("⚪                                             ⚪");
+        System.out.println("⚪     1. Hiển thị danh sách sản phẩm          ⚪");
+        System.out.println("⚪     2. Hiển thị mô tả sản phẩm              ⚪");
+        System.out.println("⚪     3. Tìm kiếm sản phẩm theo tên           ⚪");
+        System.out.println("⚪     4. Tìm kiếm sản phẩm theo loại          ⚪");
+        System.out.println("⚪     5. Sắp xếp sản phẩm theo giá tăng dần   ⚪");
+        System.out.println("⚪     6. Sắp xếp sản phẩm theo giá giảm dần   ⚪");
+        System.out.println("⚪     7. Mua sản phẩm                         ⚪");
+        System.out.println("⚪     8. Quay lại                             ⚪");
+        System.out.println("⚪     9. Thoát                                ⚪");
+        System.out.println("⚪                                             ⚪");
+        System.out.println("⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ");
     }
+
 
 }

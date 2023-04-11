@@ -1,7 +1,7 @@
 package product.model;
 
 public enum Status {
-    SOLD("SOLD"), NOTSOLD("NOTSOLD");
+    INSTOCK("INSTOCK"), OUTOFSTOCK("OUTOFSTOCK");
 
     private String value;
 

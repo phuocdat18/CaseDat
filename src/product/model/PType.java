@@ -1,7 +1,7 @@
 package product.model;
 
 public enum PType {
-    EUROPE("EUROPE"), ASIA("ASIA"), AMERICA("AMERICA"), AFRICA("AFRICA");
+    SKINCARE("SKINCARE"), BODYCARE("BODYCARE"), HAIRCARE("HAIRCARE"), LIPCARE("LIPCARE"), FUNCTIONALFOODS("FUNCTIONALFOODS");
     ;
     private String value;
 

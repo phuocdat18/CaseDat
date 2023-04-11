@@ -6,7 +6,6 @@ public class Payment {
     private String name;
     private String phoneNumber;
     private String address;
-    private String money;
     private long revenue;
 
     public Payment() {
@@ -84,14 +83,6 @@ public class Payment {
 
     public void setRevenue(long revenue) {
         this.revenue = revenue;
-    }
-
-    public String getMoney() {
-        return money;
-    }
-
-    public void setMoney(String money) {
-        this.money = money;
     }
 
     @Override

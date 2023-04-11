@@ -95,10 +95,10 @@ public class ProductService implements IProductService{
         getProducts();
         for (Product p :productList) {
             if (p.getQuantity() == 0){
-                p.setStatus(Status.NOTSOLD);
+                p.setStatus(Status.OUTOFSTOCK);
                 CSVUtils.write(path,productList);
             } else {
-                p.setStatus(Status.SOLD);
+                p.setStatus(Status.INSTOCK);
                 CSVUtils.write(path,productList);
             }
         }

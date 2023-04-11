@@ -10,7 +10,6 @@ public class User {
     private String phoneNumber;
     private String email;
     private String address;
-    private String money;
     private Role role;
 
     public User(String username, String password, Role role) {
@@ -101,14 +100,6 @@ public class User {
 
     public void setRole(Role role) {
         this.role = role;
-    }
-
-    public String getMoney() {
-        return money;
-    }
-
-    public void setMoney(String money) {
-        this.money = money;
     }
 
     @Override
